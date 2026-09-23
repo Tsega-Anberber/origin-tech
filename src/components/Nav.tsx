@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 const assetPathPrefix = '/assets';
-const imgOriginTech2 = `${assetPathPrefix}/d2b8a.png`;
+const imgOriginTech2 = "/assets/d2b8a.png";
 const imgEllipse = `${assetPathPrefix}/ef410.svg`;
 
 const links = [
