@@ -5,10 +5,11 @@ const imgOriginTech2 = `${assetPathPrefix}/d2b8a.png`;
 const imgEllipse = `${assetPathPrefix}/ef410.svg`;
 
 const links = [
+  { label: 'Home', to: '/home' },
   { label: 'About', to: '/about' },
   { label: 'Services', to: '/services' },
   { label: 'Values', to: '/values' },
-  { label: 'Contact', to: '/contact' },
+ 
 ];
 
 export function Nav() {
@@ -24,7 +25,7 @@ export function Nav() {
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
         </div>
         <span className="font-['Big_Shoulders_Display:SemiBold'] font-semibold text-[#12151b] text-[22px] leading-[1.06] tracking-[0.044px]">
-          ORIGIN
+          ORIGIN TECHNOLOGIES
         </span>
       </Link>
 

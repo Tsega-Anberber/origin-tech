@@ -194,7 +194,7 @@ export function Home() {
             <p className="font-['IBM_Plex_Mono:Regular'] text-[#4b5058] text-[11px] leading-[1.4] tracking-[0.22px] whitespace-nowrap">LEADERSHIP</p>
           </div>
           <p className="font-['Big_Shoulders_Display:Bold'] font-bold text-[#12151b] text-[32px] leading-none tracking-[0.064px]">
-            "We don't measure ourselves against where the industry was. We build for where it's going — and we hold every line of code to the same standard we'd want from a partner we were trusting with our own business."
+            "We don't measure ourselves against where the industry was. We build for where it's going and we hold every line of code to the same standard we'd want from a partner we were trusting with our own business."
           </p>
           <div className="flex flex-col gap-1 items-start whitespace-nowrap">
             <p className="font-['IBM_Plex_Sans:Medium'] font-medium text-[#12151b] text-[15px] leading-[1.3]" style={{ fontVariationSettings: '"wdth" 100' }}>Adem Kedir</p>

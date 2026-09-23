@@ -24,6 +24,7 @@ function Layout() {
       <main className="flex-1 flex flex-col">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/values" element={<Values />} />

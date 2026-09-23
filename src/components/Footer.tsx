@@ -17,7 +17,7 @@ export function Footer() {
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
             </div>
             <span className="font-['Big_Shoulders_Display:SemiBold'] font-semibold text-[#12151b] text-[22px] leading-[1.06] tracking-[0.044px]">
-              ORIGIN
+              ORIGIN TECHNOLOGIES
             </span>
           </Link>
           <p
