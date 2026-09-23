@@ -50,6 +50,7 @@ export function Home() {
   const pageRef = useRevealAll();
 
   return (
+    
     <div ref={pageRef} className="bg-[#f5f6f2] flex flex-col items-start w-full">
 
       {/* Hero */}
@@ -106,13 +107,13 @@ export function Home() {
           </div>
 
           {/* Origin Plot */}
-          <div className="relative shrink-0 size-[380px] lg:size-[480px]">
+          <div className="relative shrink-0 size-[380px] lg:size-[480px] -translate-x-[-150px] -translate-y-10 lg:-translate-y-75 -lg:translate-x-90" >
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPlotFrame} />
-            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[53%] top-[49%] whitespace-nowrap">0,0</p>
+            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[53%] top-[51%] whitespace-nowrap">0,0</p>
             <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[53%] top-[8%] whitespace-nowrap">Software</p>
-            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[11%] top-[49%] whitespace-nowrap">Consulting</p>
-            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[53%] top-[92%] whitespace-nowrap">Data</p>
-            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[69%] top-[49%] whitespace-nowrap">Infrastructure</p>
+            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[11%] top-[51%] whitespace-nowrap">Consulting</p>
+            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[53%] top-[88%] whitespace-nowrap">Data</p>
+            <p className="absolute font-['IBM_Plex_Mono:Regular'] text-[#12151b] text-[12px] leading-[1.4] left-[69%] top-[51%] whitespace-nowrap">Infrastructure</p>
           </div>
         </div>
 
