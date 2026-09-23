@@ -19,7 +19,7 @@ export function Nav() {
     <nav className="bg-[#f5f6f2] border-[#d8d8d0] border-b border-solid flex h-[60px] items-center justify-between px-6 md:px-24 py-5 w-full sticky top-0 z-50 transition-shadow duration-300">
       <Link to="/" className="flex items-center gap-[10px] shrink-0">
         <div className="h-[31px] w-[32px] relative overflow-hidden shrink-0">
-          <img alt="" className="absolute h-[195.21%] left-[-53.92%] max-w-none top-[-0.18%] w-[208.82%]" src={imgOriginTech2} />
+          <img alt="" className="absolute h-[195.21%] left-[-53.92%] max-w-none top-[-0.18%] w-[208.82%]" src={imgOriginTech2}  />
         </div>
         <div className="shrink-0 size-[6px] relative">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
