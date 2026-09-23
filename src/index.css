@@ -1,0 +1,173 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Big Shoulders Display:Bold';
+  src: url('https://static.figma.com/font/BigShouldersDisplay_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Display:ExtraBold';
+  src: url('https://static.figma.com/font/BigShouldersDisplay_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Display:SemiBold';
+  src: url('https://static.figma.com/font/BigShouldersDisplay_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono:Regular';
+  src: url('https://static.figma.com/font/IBMPlexMono-Regular_2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans:Medium';
+  src: url('https://static.figma.com/font/IBMPlexSans_wdth_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans:Regular';
+  src: url('https://static.figma.com/font/IBMPlexSans_wdth_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Scroll reveal base states */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-24px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal-right {
+  opacity: 0;
+  transform: translateX(24px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stagger delays */
+.delay-0 { transition-delay: 0ms; }
+.delay-1 { transition-delay: 80ms; }
+.delay-2 { transition-delay: 160ms; }
+.delay-3 { transition-delay: 240ms; }
+.delay-4 { transition-delay: 320ms; }
+
+/* Marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 22s linear infinite;
+}
+.marquee-track-slow {
+  animation: marquee 30s linear infinite;
+}
+
+/* Scroll indicator bounce */
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}
+.bounce-down {
+  animation: bounce-down 1.6s ease-in-out infinite;
+}
+
+/* Nav link hover underline */
+.nav-link {
+  position: relative;
+  transition: color 0.2s;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #12151b;
+  transition: width 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.nav-link:hover {
+  color: #12151b;
+}
+
+/* Service row hover */
+.service-row {
+  transition: background 0.2s, padding-left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.service-row:hover {
+  background: #eceee7;
+  padding-left: 8px;
+}
+
+/* Button press */
+.btn-primary {
+  transition: transform 0.15s, opacity 0.15s;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.btn-primary:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Partner row hover */
+.partner-cell {
+  transition: background 0.2s, color 0.2s;
+}
+.partner-cell:hover {
+  background: #eceee7;
+  color: #12151b;
+}
+
+/* Timeline step hover */
+.timeline-step {
+  transition: opacity 0.2s;
+}
+.timeline-step:hover {
+  opacity: 0.75;
+}

@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="1106" viewBox="0 0 1440 1106" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="BackgroundGrid" clip-path="url(#clip0_0_96)">
+<g id="Vector" opacity="0.7">
+</g>
+<path id="Vector_2" d="M1440 0H0V1106H1440V0Z" fill="url(#paint0_radial_0_96)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_96" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720) scale(1224 940.1)">
+<stop stop-color="#F5F6F2" stop-opacity="0"/>
+<stop offset="1" stop-color="#F5F6F2"/>
+</radialGradient>
+<clipPath id="clip0_0_96">
+<rect width="1440" height="1106" fill="white"/>
+</clipPath>
+</defs>
+</svg>
