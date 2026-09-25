@@ -14,7 +14,7 @@ export function Footer() {
   <img
     alt="Origin Technologies"
     className="h-[32px] w-auto object-contain"
-    src={imgOriginTech2}
+    src="/assets/logo.png"
   />
 </div>
             <div className="shrink-0 size-[6px] relative">
