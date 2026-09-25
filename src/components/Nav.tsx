@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
-const assetPathPrefix = '/assets';
-const imgOriginTech2 = "/assets/d2b8a.png";
+const assetPathPrefix = 'public/assets';
+const imgOriginTech2 = "public/assets/d2b8a.png";
 const imgEllipse = `${assetPathPrefix}/ef410.svg`;
 
 const links = [
@@ -19,12 +19,8 @@ export function Nav() {
     <nav className="bg-[#f5f6f2] border-[#d8d8d0] border-b border-solid flex h-[60px] items-center justify-between px-6 md:px-24 py-5 w-full sticky top-0 z-50 transition-shadow duration-300">
       <Link to="/" className="flex items-center gap-[10px] shrink-0">
         <div className="h-[40px] w-auto flex items-center shrink-0">
-  <img
-    alt="Origin Technologies"
-    className="h-[32px] w-auto object-contain"
-    src={imgOriginTech2}
-  />
-</div>
+          <img alt="Origin Technologies" className="h-[32px] w-auto object-contain" src={imgOriginTech2} />
+          </div>
         <div className="shrink-0 size-[6px] relative">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
         </div>
