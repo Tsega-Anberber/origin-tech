@@ -10,9 +10,13 @@ export function Footer() {
       <div className="border-[#d8d8d0] border-b border-solid flex flex-col md:flex-row items-start justify-between pb-9 w-full gap-10">
         <div className="flex flex-col gap-[14px] items-start w-full md:w-[280px]">
           <Link to="/" className="flex gap-[10px] items-center">
-            <div className="h-[31px] w-[32px] relative overflow-hidden shrink-0">
-              <img alt="" className="absolute h-[195.21%] left-[-53.92%] max-w-none top-[-0.18%] w-[208.82%]" src={imgOriginTech2} />
-            </div>
+           <div className="h-[40px] w-auto flex items-center shrink-0">
+  <img
+    alt="Origin Technologies"
+    className="h-[32px] w-auto object-contain"
+    src={imgOriginTech2}
+  />
+</div>
             <div className="shrink-0 size-[6px] relative">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
             </div>

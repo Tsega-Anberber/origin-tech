@@ -328,7 +328,7 @@ export function Home() {
       </div>
 
       {/* Partners marquee */}
-      <section className="bg-[#2647FF] border-[#2647FF] border-b border-t border-solid overflow-hidden w-full">
+      <section className="bg-[#f5f6f2] border-[#d8d8d0] border-b border-t border-solid overflow-hidden w-full">
         <div className="marquee-track-slow flex">
           {[...partners, ...partners, ...partners, ...partners].map((p, i) => (
             <div
