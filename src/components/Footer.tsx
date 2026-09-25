@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const assetPathPrefix = '/assets';
-const imgOriginTech2 = "/assets/d2b8a.png";
+const imgOriginTech2 = "/assets/logo.png";
 const imgEllipse = `${assetPathPrefix}/ef410.svg`;
 
 export function Footer() {

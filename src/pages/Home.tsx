@@ -335,7 +335,7 @@ export function Home() {
               key={i}
               className="partner-cell border-[#d8d8d0] border-r border-solid flex h-[108px] items-center pl-10 pr-10 shrink-0"
             >
-              <p className="font-['Big_Shoulders_Display:SemiBold'] font-semibold text-[#ffffff] text-[22px] leading-[1.06] tracking-[0.044px] whitespace-nowrap">
+              <p className="font-['Big_Shoulders_Display:SemiBold'] font-semibold text-[#4b5058]] text-[22px] leading-[1.06] tracking-[0.044px] whitespace-nowrap">
                 {p}
               </p>
             </div>
