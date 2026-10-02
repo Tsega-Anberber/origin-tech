@@ -9,7 +9,7 @@ export function About() {
 
   return (
     <div ref={pageRef} className="bg-[#f5f6f2] flex flex-col items-start w-full min-h-dvh">
-      {/* About section */}
+      {/* About  */}
       <section className="bg-[#f5f6f2] border-[#d8d8d0] border-b border-solid flex flex-col lg:flex-row gap-[70px] items-start px-6 md:px-24 py-[120px] w-full">
         <div className="flex flex-col gap-[22px] items-start shrink-0 w-full lg:w-[400px]">
           <div className="reveal flex gap-[10px] items-center">
